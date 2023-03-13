@@ -36,7 +36,7 @@ void setup() {
   }
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(100);
-  DigiKeyboard.print("https://cookie11-rickroll.tiiny.site/");
+  DigiKeyboard.print("https://cookiesandwich11.github.io/chromeos-digispark-rickroll/");
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(100);
@@ -44,7 +44,7 @@ void setup() {
   DigiKeyboard.delay(150);
   DigiKeyboard.sendKeyStroke(MOD_CONTROL_LEFT, KEY_T);
   DigiKeyboard.delay(150);
-  DigiKeyboard.print("https://cookie11-rickroll.tiiny.site/");
+  DigiKeyboard.print("https://cookiesandwich11.github.io/chromeos-digispark-rickroll/");
   DigiKeyboard.delay(150);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
