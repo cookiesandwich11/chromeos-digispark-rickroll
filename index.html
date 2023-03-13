@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Never Gonna Give You Up</title>
+	<script>
+		var count = 0; // initialize a count variable
+		function openWindow() {
+			if (count < 15) { // open a new window only if count is less than 15
+				var x = Math.floor(Math.random() * (screen.width - 500)); // generate a random x-coordinate
+				var y = Math.floor(Math.random() * (screen.height - 500)); // generate a random y-coordinate
+				window.open("https://youtu.be/a3Z7zEc7AXQ", "_blank", "left=" + x + ",top=" + y + ",width=300,height=300");
+				count++; // increment the count variable
+				setTimeout(openWindow, 5000); // calls the function every 5 seconds
+			}
+		}
+	</script>
+	<style>
+    	body {
+        	font-family: "Comic Sans MS", cursive, sans-serif;
+    	}
+	</style>
+
+<script type="text/javascript" src="https://tiiny.host/ad-script.js"></script><script defer data-domain="cookie11-rickroll.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script></head>
+<body onload="openWindow()">
+	<h1>YOU'VE JUST BEEN RICKROLLED!!</h1>
+	<p>Imagine getting rickrolled by a usb stick!<br>
+	"Rickrolling isnt funny anymore" - no one</p>
+	<IMG SRC="https://media.tenor.com/o656qFKDzeUAAAAC/rick-astley-never-gonna-give-you-up.gif"></IMG>
+</body>
+</html>
